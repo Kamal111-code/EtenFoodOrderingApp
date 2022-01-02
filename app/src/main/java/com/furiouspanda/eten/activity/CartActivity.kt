@@ -40,7 +40,6 @@ class CartActivity : AppCompatActivity() {
     lateinit var selectedItemsId: ArrayList<String>
     lateinit var linearLayout: LinearLayout
     lateinit var cartProgressLayout: RelativeLayout
-
     var totalAmount = 0
     var cartListItems = arrayListOf<CartItems>()
 
